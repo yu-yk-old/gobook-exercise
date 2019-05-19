@@ -4,6 +4,12 @@ Exercise 1.3:
 Experiment to measure the difference inrunning time between our potentially inefficient versions
 and the one that uses strings.Join. (Section 1.6 illustrates part of the time package,
 and Section 11.4 shows how to write benchmark tests for systematic performance evaluation.)
+
+Benchmark_echo2-8   	 3000000	       395 ns/op	     176 B/op	       8 allocs/op
+Benchmark_echo3-8   	20000000	       105 ns/op	      32 B/op	       1 allocs/op
+PASS
+ok  	gopl/ch1/echo_ex1.3	3.838s
+
 */
 package main
 
